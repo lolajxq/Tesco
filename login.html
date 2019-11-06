@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="./css/model.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <header>
+        <div class="box">
+                <div class="left">
+                    <p>登录</p>
+                </div>
+                <div class="right">
+                    <p>欢迎光临<a href="index.html"><span>乐购</span></a>，请&nbsp;
+                        <a href="./login.html">登录</a>|
+                        <a href="./register.html">注册</a>
+                    </p>
+                </div>
+        </div>
+    </header>
+    <section class="welcome2">
+        <p>欢迎登录</p>
+    </section>
+    <section class="login">
+        <img src="img/images/loginBG.jpg" alt="">
+        <div class="box">
+            <div class="method"><span class="color">扫码登录</span><span>密码登录</span></div>
+            <div class="method1 hide">
+                <input type="text" placeholder="用户名"/>
+                <input type="text" placeholder="密码"/>
+                <div><p><input type="checkbox"/>自动登录</p>  忘记密码</div>
+                <input type="button" value="登录" class="btn"/>
+                <div class="bottom">
+                    <div class="icon"><img src="img/images/pageturn_next.png" alt=""></div>
+                    <p>立即注册</p>
+                </div>
+            </div>
+            <div class="method2">
+                <div class="img">
+                    <img src="./img/images/show.png" alt="">
+                    <img src="./img/images/phone-orange.png" alt="">
+                </div>
+                <p>打开手机端&nbsp;乐购APP，手机扫一扫</p>
+            </div>
+           
+        </div>
+    </section>
+  
+    <footer>
+        <div class="bottom">
+            <div class="more">
+                <span>公司简介</span>
+                <span>|</span>
+                <span>nvestor Relations</span>
+                <span>|</span>
+                <span>网站联盟</span>
+                <span>|</span>
+                <span>乐购招商</span>
+                <span>|</span>
+                <span>机构销售</span>
+                <span>|</span>
+                <span>手机乐购</span>
+                <span>|</span>
+                <span>官方Blog</span>
+                <span>|</span>
+                <span>热词搜索</span>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 乐购网 2004-2016.All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    $(function(){
+        $(".method span").click(function(){
+            $(".method1,.method2").toggleClass("hide");
+            $(".method span").toggleClass("color");
+        })
+    $(".btn").click(function(){
+        location.href = "./index.html"
+    })
+    })
+</script>
+</html>

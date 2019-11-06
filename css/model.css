@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* **********************fixedTop**************************** */
+.fixedTop{
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px solid #FF6600;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    z-index: 10;
+}
+/* **********************end fixedTop**************************** */
+/* **********************fixedLeft**************************** */
+.fixedLeft{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    width: 80px;
+    height: 320px;
+    display: none;
+    z-index: 100;
+}
+.fixedLeft ul li{
+    display: flex;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.fixedLeft div:first-child{
+    background-image: url("../img/images/icon_shop.png");
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+}
+.fixedLeft .img1{
+    background-position: 500px -240px;
+}
+.fixedLeft .img2{
+    background-position: 0 0;
+}
+.fixedLeft .img3{
+    background-position: 500px -40px;
+}
+.fixedLeft .img4{
+    background-position: 500px -160px;
+}
+.fixedLeft .img5{
+    background-position: 500px -200px;
+}
+.fixedLeft .img6{
+    background-position: 500px -320px;
+}
+.fixedLeft .img7{
+    background-position: 500px -440px;
+}
+.fixedLeft .img8{
+    background-position: 500px -520px;
+}
+.fixedLeft li>div:last-child{
+    margin-left: -40px;
+    color: #fff;
+    background-image: none;
+    width: 0px;
+    height: 40px;
+}
+.fixedLeft .info1{
+    background-color: springgreen;
+}
+.fixedLeft .info2{
+    background-color: turquoise;
+}
+.fixedLeft .info3{
+    background-color: skyblue;
+}.fixedLeft .info4{
+    background-color: khaki;
+}.fixedLeft .info5{
+    background-color: darkorange;
+}.fixedLeft .info6{
+    background-color: lightsalmon;
+}.fixedLeft .info7{
+    background-color: lightpink;
+}.fixedLeft .info8{
+    background-color: burlywood;
+}
+.fixedLeft li>div:last-child>p{
+    margin-left: 40px;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+.fixedLeft ul li .bgColor{
+    background-color: #ccc;
+    width: 40px;
+    /* display: block; */
+}
+.fixedLeft ul li div:last-child .active{
+    display: block;
+}
+/* **********************end fixedLeft**************************** */
+/* **********************fixedRight**************************** */
+
+.fixedRight{
+    position: fixed;
+    right: 0;
+    top: 200px;
+    width: 40px;
+    height: 180px;
+    background-color: yellowgreen;
+    z-index: 9;
+}
+.fixedRight>div{
+    background-image: url("../img/images/icon_shop.png");
+}
+.fixedRight .img1{
+    background-position: 101px -351px;
+    width: 40px;
+    height: 40px;
+}
+.fixedRight .img2{
+    background-position: 101px -399px;
+    width: 40px;
+    height: 100px;
+}
+.fixedRight .img3{
+    position: absolute;
+    right: -200px;
+    top:40px;
+    background-position: 100px -200px;
+    width: 100px;
+    height: 100px;
+}
+.fixedRight .img4{
+    background-position: 101px -350px;
+    width: 40px;
+    height: 40px;
+}
+/* **********************end fixedRight**************************** */
+
+/* **********************header**************************** */
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #101010;
+}
+.box{
+    margin: 0 auto;
+    width: 1200px;
+    height: 40px;
+    position: relative;
+
+}
+.box .left{
+    width: 200px;
+    height: 85px;
+    background-image: url("../img/images/LogoBG.gif");
+    position: absolute;
+}
+.box .left p{
+    width: 70px;
+    height: 40px;
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 118px;
+    margin-top: 8px;
+}
+.box .right{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+}
+.box .right span,.right a{
+    color: #FF6600;
+}
+/* **********************end header**************************** */
+/* **********************search**************************** */
+.search{
+    margin: 0 auto;
+    width: 1200px;
+    height: 45px;
+    padding-top: 1px;
+}
+.content{
+    margin-top:7px; 
+    width: 500px;
+    height: 30px;
+    margin-left: 680px;
+    display: flex;
+    justify-content: space-between;
+}
+.content .text,.fixedTop .text{
+    width: 310px;
+    height: 30px;
+    background-color: #fff;
+    border: #FF6600 2px solid;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.content .text input,.fixedTop .text input{
+    border: none;
+    outline: none;
+    width: 270px;
+}
+.content .text .img,.fixedTop .text .img{
+    width: 40px;
+    height: 27px;
+    background-color: #FF6600;
+}
+.content .text .img div,.fixedTop .text .img div{
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/images/icon_shop.png");
+    background-position: 303px -10px;
+
+}
+.content .right{
+    width: 170px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.content .right .cart{
+    width: 85px;
+    height: 30px;
+    background-color: #FF6600;
+    font-size: 12px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    display: flex;
+}
+.cart .span1{
+    width: 70px;
+    height: 30px;
+    display: block;
+}
+.cart .shopcart{
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/images/icon_shop.png");
+    background-position: 200px -5px;
+}
+.cart .p2{
+    margin-top: -30px;
+    margin-left: 31px;
+}
+.cart .span2{
+    width: 15px;
+    height: 30px;
+    display: block;
+}
+
+.content .right .myOrder{
+    width: 85px;
+    height: 30px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 30px;
+    color: #666;
+}
+/* **********************end search**************************** */
+/* **********************分类 classify**************************** */
+.classify{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+.classify .left{
+    width: 200px;
+    height: 30px;
+    background-color: #FF6600;
+}
+.classify .left .text{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    width: 120px;
+    margin-left: 20px;
+}
+.classify .left .img{
+    background-image: url("../img/images/icon_shop.png");
+    background-position: 52px -86px;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 150px;
+}
+.classify ul{
+    margin-top: -30px;
+    margin-left: 200px;
+    width: 800px;
+    height: 30px;
+    display: flex;
+    font-size: 17px;
+}
+.classify ul li{
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+/* **********************end 分类classify**************************** */
+/* **********************footer**************************** */
+footer{
+    height: 350px;
+    width: 100%;
+    border-top: 5px solid #FF6600;
+    color: #555;
+}
+footer .top{
+    width: 100%;
+    height: 100px;
+    background-color: #F2F2F2;
+    padding-top: 1px;
+}
+footer .top ul,footer .center .bigUl{
+    width: 800px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.center .img{
+    background-image: url("../img/images/icon_shop.png");
+    background-position: 315px -280px;
+    width: 150px;
+    height: 150px;
+    margin-left: 1050px;
+    margin-top: -180px;;
+}
+footer .center .bigUl{
+    width: 700px;
+    height: 170px;
+}
+.bigUl>li{
+    text-align: center;
+    width: 120px;
+    height: 150px;
+}
+.bigUl li .title{
+    font-weight: 900;
+    color: #000;
+}
+.bigUl li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #555;
+
+}
+footer .bottom{
+    margin: 0 auto;
+    width: 800px;
+    height: 60px;
+    font-size: 12px;
+}
+footer .bottom span{
+    margin-left: 16px;
+}
+footer .bottom .copyright{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+/* **********************end footer**************************** */
+/* **********************footer**************************** */
+/* **********************end 分类classify**************************** */
+
+

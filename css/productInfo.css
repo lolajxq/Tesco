@@ -1,0 +1,206 @@
+/* 添加到购物车 */
+.tocart{
+    width: 100%;
+    height: 450px;
+    background-color: #f0f0f0;
+}
+.tocart .content{
+    padding: 20px;
+    margin: 0 auto;
+    width: 1160px;
+    height: 410px;
+    background-color: #fff;
+}
+.tocart .content .left{
+    width: 30%;
+    background-color: #eee;
+    height: 410px;;
+}
+.tocart .content .left img{
+   width: 90%;
+   margin-top: 30px;
+   margin-left: 5%;
+}
+.tocart .content .left p{
+    color: #999;
+   margin-left: 5%;
+   margin-top: 20px;
+
+ }
+.tocart .content .right{
+    width: 70%;
+    height: 350px;;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.tocart .content .right p{
+    color: #999;
+    font-size: 12px;
+}
+.tocart .content .right .top{
+    width: 100%;
+    height: 100px;
+}
+.tocart .content .right h3,.content .right p{
+   line-height: 30px;
+}
+.tocart .content .right .center{
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 130px;
+    position: relative;
+}
+.tocart .content .right .center div{
+    width: 60px;
+    height: 40px;
+    border-left: #999 solid 1px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    right: 0;
+    top: 10px;
+    position: absolute;
+}
+.content .right .center p:nth-of-type(1) span{
+    font-size: 18px;
+}
+.content .right .center p:nth-of-type(1) span,.content .right .center p:nth-of-type(2) span{
+    color: red;
+}
+.content .right .center p:nth-of-type(3){
+    position: relative;
+}
+.content .right .center p:nth-of-type(3) span{
+    width: 60px;
+    height: 15px;
+    background-color: orangered;
+    display: inline-block;
+    color: #fff;
+    margin-top: 10px;
+    position: absolute;
+    left: 50px;
+    text-align: center;
+    line-height: 15px;
+}
+.content .right .center p:nth-of-type(3) span:nth-of-type(2){
+    left: 130px;
+}
+.tocart .content .right .bottom{
+    width: 100%;
+    height: 210px;
+}
+.tocart .content .right .bottom p:nth-of-type(1){
+    color: #333;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.tocart .content .right .bottom p span{
+    display: inline-block;
+    border: #999 solid 1px;
+    width: 80px;
+    height: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+.tocart .content .right .bottom .count{
+   width: 40px;
+   height: 30px;
+   border: #999 solid 1px;
+   margin-top: 40px;
+   position: relative;
+}
+.tocart .content .right .bottom .count .num{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+ }
+ .tocart .bottom .count .operation{
+    width: 10px;
+    height: 30px;
+    background-color: #ccc;
+    position: absolute;
+    left: 30px;
+    top: 0;
+    text-align: center;
+ }
+ .tocart .bottom .count .operation .add{
+    width: 10px;
+    height: 15px;
+    line-height: 15px;
+    border-bottom: 1px solid #999;
+    box-sizing: content-box;
+ }
+ .tocart .bottom .count .operation .sub{
+    width: 10px;
+    height: 15px;
+    line-height: 15px;
+ }
+ .tocart .bottom .addTo{
+    width: 200px;
+    height: 50px;
+    background-color: orangered;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin-top: -40px;
+    margin-left: 80px;
+}
+.tocart .bottom p:last-child{
+    height: 20px;
+    width: 500px;
+}
+/* end 添加到购物车 */
+/*人气单品 */
+.single{
+    height: 2460px;
+    margin-top: 30px;
+}
+.single>p{
+    width: 150px;
+}
+.single ul li:hover{
+    background-color: #ccc;
+}
+.single .info{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+    margin-left: 120px;
+
+}
+.single .info ul{
+    flex-direction: column;
+}
+.single .info ul>div{
+    height: 30px;
+    width: 240px;
+    display: inline-block;
+    background-color: #ccc;
+}
+.single .info ul>li{
+    border: #ccc 1px solid;
+    box-sizing: border-box;
+}
+.single .img .introduce{
+    width: 600px;
+    height: 50px;
+    border-bottom: 5px solid orangered;
+    font-size: 20px;
+    line-height: 50px;
+}
+.single .img .introduce span{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    background-color: orangered;
+    text-align: center;
+}
+.single>img{
+    margin-top: -15px;
+}
+/* end 人气单品 */

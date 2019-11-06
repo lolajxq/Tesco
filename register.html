@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="./css/model.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <script src="./js/model.js"></script>
+</head>
+<body>
+    <header>
+        <div class="box">
+                <div class="left">
+                    <p>注册</p>
+                </div>
+                <div class="right">
+                    <p>欢迎光临<a href="index.html"><span>乐购</span></a>，请&nbsp;
+                        <a href="./login.html">登录</a>|
+                        <a href="./register.html">注册</a>
+                    </p>
+                </div>
+        </div>
+    </header>
+    <section class="welcome">
+        <p>欢迎注册</p>
+        <p>已有账号？请<a href="./login.html">登录</a></p>
+    </section>
+    <section class="myInfo">
+        <form action="" method="get" class="myForm" >
+            <div>用户名<input type="text" placeholder="你的账户名和登录名"></div>
+            <div>设置密码<input type="text" placeholder="建议设置两种字符密码"></div>
+            <div>确认密码<input type="text" placeholder="再次输入密码"></div>
+            <div>中国+86<input type="text" placeholder="建议使用常用手机号"></div>
+            <div class="one">验证码<input type="text" placeholder="请输入验证码"><div class="confirm">MH54</div></div>
+            <div class="two">手机验证码<input type="text" placeholder="输入手机验证码"><input type="button" value="获取验证码"></div>
+            <p>我已阅读并同意 <span>《京东用户注册协议》</span> </p>
+            <input type="button" value="立即注册" class="toLogin">
+        </form>
+    </section>
+    <footer>
+        <div class="bottom">
+            <div class="more">
+                <span>公司简介</span>
+                <span>|</span>
+                <span>nvestor Relations</span>
+                <span>|</span>
+                <span>网站联盟</span>
+                <span>|</span>
+                <span>乐购招商</span>
+                <span>|</span>
+                <span>机构销售</span>
+                <span>|</span>
+                <span>手机乐购</span>
+                <span>|</span>
+                <span>官方Blog</span>
+                <span>|</span>
+                <span>热词搜索</span>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 乐购网 2004-2016.All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    $(function(){
+        $(".toLogin").click(function(){
+            location.href = "./login.html"
+        })
+    })
+</script>
+</html>
